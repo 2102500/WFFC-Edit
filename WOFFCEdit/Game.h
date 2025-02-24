@@ -29,10 +29,12 @@ public:
 
 	// Basic game loop
 	void Tick(InputCommands * Input);
+	int	 MousePicking();
 	void Render();
 
 	// Rendering helpers
 	void Clear();
+	RECT		m_ScreenDimensions;
 
 	// IDeviceNotify
 	virtual void OnDeviceLost() override;
@@ -71,7 +73,6 @@ private:
 
 	//functionality
 	float								m_movespeed;
-	int	 MousePicking();
 
 	//camera
 	DirectX::SimpleMath::Vector3		m_camPosition;
