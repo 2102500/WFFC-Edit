@@ -18,6 +18,11 @@ ToolMain::ToolMain()
 	m_toolInputCommands.back		= false;
 	m_toolInputCommands.left		= false;
 	m_toolInputCommands.right		= false;
+	m_toolInputCommands.rotRight = false;
+	m_toolInputCommands.rotLeft = false;
+	m_toolInputCommands.mouse_LB_Down = false;
+	m_toolInputCommands.mouse_X = 0;
+	m_toolInputCommands.mouse_Y = 0;
 	
 }
 

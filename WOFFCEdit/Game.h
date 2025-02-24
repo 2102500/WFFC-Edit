@@ -71,6 +71,7 @@ private:
 
 	//functionality
 	float								m_movespeed;
+	int	 MousePicking();
 
 	//camera
 	DirectX::SimpleMath::Vector3		m_camPosition;

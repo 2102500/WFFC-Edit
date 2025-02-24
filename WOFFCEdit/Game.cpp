@@ -576,6 +576,12 @@ void Game::CreateWindowSizeDependentResources()
 	
 }
 
+int Game::MousePicking()
+{
+	return 0;
+}
+
+
 void Game::OnDeviceLost()
 {
     m_states.reset();
